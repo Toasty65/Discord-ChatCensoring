@@ -1,2 +1,2 @@
-# Discord-ChatCensoring
-A package for your Discord bot that allows you to remove or censor expressions in chat.
+# ChatCensoring
+A package for your chat application that allows you to remove or censor expressions in chat.
