@@ -4,7 +4,7 @@ A tiny & simple package for your `chat application` that allows you to `remove` 
 
 # Installation 
 
-### [npm](https://docs.npmjs.com/cli/v6/commands/npm): ###
+### [npm](https://www.npmjs.com/package/chat-censoring): ###
 
 `npm i chat-censoring`
 
@@ -22,6 +22,7 @@ This function takes your message as argument and checks, if it includes a bad wo
 Parameter|Usage
 ---------|-----
 message|The message you want to check
+
 
 
 **Example:**
@@ -50,6 +51,8 @@ Parameter|Usage
 ---------|-----
 message|The message you want to check **and** censor if needed
 censoringChar|The char you want to use to censor bad words
+
+
 
 **Example:**
 
