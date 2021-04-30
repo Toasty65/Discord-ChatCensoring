@@ -1,4 +1,19 @@
-# ChatCensoring
+<div >
+</p align="center">
+	<h1 align="center">ChatCensoring</h1>
+</p>
+<p align="center">
+	<a href="https://nodei.co/npm/chat-censoring/"><img src="https://nodei.co/npm/chat-censoring.png"></a>
+</p>
+	<p align="center">
+	<img alt="npm" src="https://img.shields.io/npm/v/chat-censoring">
+	<img alt="npm" src="https://img.shields.io/npm/dt/chat-censoring">
+	<img alt="GitHub" src="https://img.shields.io/github/license/Toasty65/chatCensoring">
+	<img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Toasty65/ChatCensoring/main">
+</p>
+</div>
+
+<br>
 
 A tiny & simple package for your `chat application` that allows you to `remove` or `censor` bad words in chat.
 
