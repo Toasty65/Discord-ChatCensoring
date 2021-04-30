@@ -4,7 +4,7 @@ exports.checkMessage = message => {
     if(!message) throw new Error('No message provided!');
     if(typeof message !=='string') throw new Error('The provided parameter is not of type string!');
 
-    message = message.toString().toLowerCase();
+    message = message.toLowerCase();
 
     return swearWords.some(word => message.includes(word.toLowerCase()));
 }
@@ -18,7 +18,7 @@ exports.censorMessage = (message, censoringChar) => {
     let friendlyMessage = '';
 
     for(const messagePart of message.split(' ')) {
-        if(checkMessage(messagePart)) {
+        if(this.checkMessage(messagePart)) {
             friendlyMessage += ` ${messagePart.replace(/./g, censoringChar)}`;
             continue;
         }

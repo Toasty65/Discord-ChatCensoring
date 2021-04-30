@@ -62,3 +62,20 @@ const censoring = require('chat-censoring');
 const friendlyMessage = censoring.censorMessage('This is fucking cool!', '*');
 console.log(friendlyMessage); // Prints 'This is ******* cool!'
 ```
+
+## [Discord.js](https://www.npmjs.com/package/discord.js) example
+
+This package was created with the motivation to censor chat messages in `Discord`. Of course it can be used in other applications as well
+
+Here is an example how you can use it for your `Discord bot`:
+
+```js
+if(!content.startsWith(prefix) || message.author.bot) {
+		if(censor.checkMessage(content)) {
+			message.delete()
+				.then(() => message.channel.send(`${message.author} said: ${censor.censorMessage(content, '#')}`))
+				.catch(console.error());
+		}
+		return;
+	}
+```
