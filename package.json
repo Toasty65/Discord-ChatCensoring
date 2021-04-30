@@ -1,6 +1,6 @@
 {
   "name": "chat-censoring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks a message for bad words (and censor it)",
   "main": "index.js",
   "scripts": {
