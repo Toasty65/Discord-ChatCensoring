@@ -1,0 +1,19 @@
+{
+  "name": "chat-censoring",
+  "version": "1.0.0",
+  "description": "Checks a message for bad words (and censor it)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toasty65/ChatCensoring.git"
+  },
+  "author": "Toasty65",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toasty65/ChatCensoring/issues"
+  },
+  "homepage": "https://github.com/Toasty65/ChatCensoring#readme"
+}
