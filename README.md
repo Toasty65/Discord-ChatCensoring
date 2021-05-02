@@ -25,7 +25,7 @@ A tiny & simple package for your `chat application` that allows you to `remove` 
 
 # Features
 
-- Check. if a message includes bad words
+- Check, if a message includes bad words
 - Check **and** censor (if needed) a message
 
 ## Check message
