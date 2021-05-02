@@ -17,7 +17,7 @@ exports.censorMessage = (message, censoringChar) => {
 
     let friendlyMessage = '';
 
-    for(const messagePart of message.split(' ')) {
+    for(const messagePart of message.replace(/\s{2,}/g, ' ').split(' ')) {
         if(this.checkMessage(messagePart)) {
             friendlyMessage += ` ${messagePart.replace(/./g, censoringChar)}`;
             continue;
