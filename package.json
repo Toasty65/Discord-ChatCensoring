@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/Toasty65/ChatCensoring.git"
   },
+  "keywords": [
+    "censoring",
+    "message verification"
+  ],
   "author": "Toasty65",
   "license": "ISC",
   "bugs": {
