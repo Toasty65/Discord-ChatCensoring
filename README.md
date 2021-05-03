@@ -94,3 +94,9 @@ if(!content.startsWith(prefix) || message.author.bot) {
 		return;
 	}
 ```
+
+## Support me
+
+If you like my work I would be very happy about a small donation as a nice gesture. You can buy me a coffee here:
+
+https://www.buymeacoffee.com/toasty
