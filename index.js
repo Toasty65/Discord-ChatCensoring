@@ -6,7 +6,7 @@ exports.checkMessage = message => {
 
     message = message.toLowerCase();
 
-    return swearWords.some(word => message.includes(word.toLowerCase()));
+    return swearWords.some(word => message === word.toLowerCase());
 }
 
 exports.censorMessage = (message, censoringChar) => {

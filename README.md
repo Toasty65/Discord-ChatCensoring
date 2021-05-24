@@ -85,11 +85,17 @@ This package was created with the motivation to censor chat messages in `Discord
 Here is an example how you can use it for your `Discord bot`:
 
 ```js
-if(!content.startsWith(prefix) || message.author.bot) {
+if(message.author.bot) return;
+
+	if(!content.startsWith(prefix)) {
+
 		if(censor.checkMessage(content)) {
 			message.delete()
 				.then(() => message.channel.send(`${message.author} said: ${censor.censorMessage(content, '#')}`))
-				.catch(console.error());
+				.catch(err => {
+					console.log('An error occurred while censoring a message: ' + err);
+					return message.channel.send('Unfortunately an error has occurred :(');
+				});
 		}
 		return;
 	}
