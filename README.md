@@ -21,7 +21,9 @@ A tiny & simple package for your `chat application` that allows you to `remove` 
 
 ### [npm](https://www.npmjs.com/package/chat-censoring): ###
 
-`npm i chat-censoring`
+```
+npm i chat-censoring
+```
 
 # Features
 
