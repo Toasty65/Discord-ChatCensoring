@@ -102,9 +102,3 @@ if(message.author.bot) return;
 		return;
 	}
 ```
-
-## Support me
-
-If you like my work I would be very happy about a small donation as a nice gesture. You can tip me here:
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L0ADBNS)
