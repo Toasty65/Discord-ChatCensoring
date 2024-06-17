@@ -80,7 +80,7 @@ const friendlyMessage = censoring.censorMessage('This is fucking cool!', '*');
 console.log(friendlyMessage); // Prints 'This is ******* cool!'
 ```
 
-## [Discord.js](https://www.npmjs.com/package/discord.js) example
+## [Deprecated] [Discord.js](https://www.npmjs.com/package/discord.js) example
 
 This package was created with the motivation to censor chat messages in `Discord`. Of course it can be used in other applications as well
 
